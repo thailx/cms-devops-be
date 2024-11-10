@@ -14,10 +14,10 @@ pipeline {
     stages {
         stage('Verify Tools') {
             steps {
-                sh '''
-                    java -version
-                    mvn -version
-                '''
+                // sh '''
+                //     java -version
+                //     mvn -version
+                // '''
             }
         }
 
